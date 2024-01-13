@@ -12,7 +12,8 @@ import CoreImage
 public class Timeline {
     
     public init() {}
-    
+
+    public var frameDuration: CMTime = CMTime(value: 1, timescale: 30)
     public var renderSize: CGSize = CGSize(width: 960, height: 540)
     public var backgroundColor: CIColor = CIColor(red: 0, green: 0, blue: 0)
     
